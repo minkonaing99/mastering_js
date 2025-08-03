@@ -36,9 +36,24 @@
 // const num1 = number(1, 2, 3);
 // console.log(num1);
 
-const a = 1;
-const b = 2;
-const c = 3;
+// const a = 1;
+// const b = 2;
+// const c = 3;
 
-const obj = { a, b, c };
-console.log(obj);
+// const obj = { a, b, c };
+// console.log(obj);
+
+// const lib = {
+//   sum: (a, b) => a + b,
+//   mult: (a, b) => a * b,
+// };
+
+// console.log(lib.sum(2, 3));
+// console.log(lib.mult(2, 3));
+
+const getPersion = (name, age, height) => {
+  return { name, age, height };
+};
+
+const res = getPersion("thomas", 25, 175);
+console.log(res.name);
