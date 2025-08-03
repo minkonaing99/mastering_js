@@ -1,5 +1,5 @@
-//Spread Operator
-// Function, Array,Object
+// Spread Operator
+// Function, Array, Object
 
 function giveMe4(a, b, c, d) {
   console.log("a", a);
